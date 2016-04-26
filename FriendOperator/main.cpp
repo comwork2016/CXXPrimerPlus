@@ -1,5 +1,5 @@
+#include <iostream>
 #include <MyTime.h>
-
 int main()
 {
     MyTime t1 = MyTime(8,56);
@@ -16,6 +16,6 @@ int main()
 
     //ÓÑÔªº¯Êý
     tt = d_mul * t1;
-    tt.Display();
+    std::cout<<tt<<std::endl;
     return 0;
 }

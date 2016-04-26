@@ -17,12 +17,13 @@ class MyTime
 
         void Display();
 
-        // ÔËËã·ûÖØÔØ
+        // é‡è½½è¿ç®—ç¬¦
         MyTime operator+(const MyTime& t);
         MyTime operator*(const double d_mul);
 
-        // ÓÑÔªº¯Êı
+        // å‹å…ƒå‡½æ•°
         friend MyTime operator*(const double d_mul, MyTime& t);
+        friend std::ostream& operator<<(std::ostream& os, MyTime& t);
 
     protected:
 

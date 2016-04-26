@@ -36,6 +36,12 @@ MyTime operator*(const double d_mul, MyTime& t)
     return t*d_mul;
 }
 
+std::ostream& operator<<(std::ostream& os, MyTime& t)
+{
+    os<<"Time is "<<t.m_hour<<" hours, "<<t.m_minute<<" minutes.";
+    return os;
+}
+
 void MyTime::Display()
 {
     using std::cout;

@@ -1,10 +1,11 @@
 # depslib dependency file v1.0
-1461676129 source:e:\github\cxxprimerplus\friendoperator\main.cpp
+1461677544 source:e:\github\cxxprimerplus\friendoperator\main.cpp
+	<iostream>
 	<MyTime.h>
 
-1461676357 e:\github\cxxprimerplus\friendoperator\include\mytime.h
+1461677651 e:\github\cxxprimerplus\friendoperator\include\mytime.h
 	<iostream>
 
-1461675951 source:e:\github\cxxprimerplus\friendoperator\src\mytime.cpp
+1461677691 source:e:\github\cxxprimerplus\friendoperator\src\mytime.cpp
 	"MyTime.h"
 
