@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1461676129 source:e:\github\cxxprimerplus\friendoperator\main.cpp
+	<MyTime.h>
+
+1461676357 e:\github\cxxprimerplus\friendoperator\include\mytime.h
+	<iostream>
+
+1461675951 source:e:\github\cxxprimerplus\friendoperator\src\mytime.cpp
+	"MyTime.h"
+
