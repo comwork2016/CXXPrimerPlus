@@ -15,6 +15,7 @@
 
 # Fortran module files
 *.mod
+*.smod
 
 # Compiled Static libraries
 *.lai
@@ -26,3 +27,16 @@
 *.exe
 *.out
 *.app
+
+#vc++6.0 files
+*.dsp
+*.dsw
+*.ncb
+*.opt
+*.plg
+*/Debug/*
+
+#codeblocks
+*.cbp
+*.layout
+*.depend
